@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="jarvis">JARVIS</string>
+    <string name="showlogs">ShowLogs</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="showname">showname</string>
+    <string name="enter_person_name">Enter person name</string>
+</resources>

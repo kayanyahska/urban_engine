@@ -12,10 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="87dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-2dp"
-        android:layout_marginLeft="-2dp"
         android:layout_marginTop="0dp"
         android:background="#2196F3"
         android:padding="30dp"
@@ -34,11 +32,11 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="207dp"
-        android:layout_marginTop="317dp"
+        android:layout_marginTop="228dp"
         android:layout_marginEnd="207dp"
         android:background="#2196F3"
         android:onClick="clickFunction"
-        android:text="@string/showname"
+        android:text="@string/login"
         android:textColor="#FFFFFF" />
 
     <EditText
@@ -46,16 +44,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="148dp"
-        android:layout_marginLeft="148dp"
-        android:layout_marginTop="195dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="118dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/username"
         android:inputType="textPersonName"
         android:textColorHint="#80DCD3" />
+
+    <EditText
+        android:id="@+id/myPasswordField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="@string/enter_valid_password"
+        android:inputType="textPassword"
+        android:textColor="#91E8E0"
+        android:textColorHint="#7CDAE6"
+        android:autofillHints="" />
 
 </RelativeLayout>

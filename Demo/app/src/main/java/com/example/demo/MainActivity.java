@@ -13,8 +13,10 @@ public class MainActivity extends AppCompatActivity {
     public void clickFunction(View view){
 
         EditText myTextField = (EditText) findViewById(R.id.myTextField);
+        EditText myPasswordField = (EditText) findViewById(R.id.myPasswordField);
 
-        Log.i("Info",myTextField.getText().toString());
+        Log.i("Username",myTextField.getText().toString());
+        Log.i("Password",myPasswordField.getText().toString());
     }
 
     @Override

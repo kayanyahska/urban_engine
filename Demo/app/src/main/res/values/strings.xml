@@ -5,4 +5,7 @@
     <string name="enter_your_name">Enter your Name</string>
     <string name="showname">showname</string>
     <string name="enter_person_name">Enter person name</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="enter_valid_password">Enter valid password</string>
 </resources>
